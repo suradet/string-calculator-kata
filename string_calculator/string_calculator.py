@@ -6,5 +6,9 @@ def add(numbers: str) -> int:
     if numbers == "":
         return 0
 
-    num_str_list = numbers.split(",")
+    def split(string_):
+        return string_.split(',')
+
+    lines = numbers.splitlines()
+    num_str_list = sum(map(split, lines), [])
     return sum(map(int, num_str_list))

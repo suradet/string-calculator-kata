@@ -28,3 +28,8 @@ Output: 579
 Handle the input of various amount of numbers.
 Input: "1, 2, 3, 4, 5, 6, 7, 8, 9, 10"
 Output: 55
+
+### Step 5: Handle new lines between numbers.
+Handle the input with new lines and comma between numbers.
+Input: "1\n2\n3, 4"
+Output: 10
