@@ -23,3 +23,8 @@ Output: 123
 Handle the input of two numbers.
 Input: "123, 456"
 Output: 579
+
+### Step 4: Handle the unknown amount of numbers.
+Handle the input of various amount of numbers.
+Input: "1, 2, 3, 4, 5, 6, 7, 8, 9, 10"
+Output: 55
