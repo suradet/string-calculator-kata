@@ -33,3 +33,8 @@ Output: 55
 Handle the input with new lines and comma between numbers.
 Input: "1\n2\n3, 4"
 Output: 10
+
+### Step 6: Support different delimiter.
+Handle the input with the first line indicating the delimiter.
+Input: "//;\n1;2;3"
+Output: 6
