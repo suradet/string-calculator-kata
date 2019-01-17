@@ -5,5 +5,6 @@ def add(numbers: str) -> int:
     """Add the numbers."""
     if numbers == "":
         return 0
-    else:
-        return int(numbers)
+
+    num_str_list = numbers.split(",")
+    return sum(map(int, num_str_list))

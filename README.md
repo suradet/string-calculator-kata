@@ -14,7 +14,12 @@ result of 0.
 Input: ""
 Output: 0
 
-### Step 2: Handle one number cases.
+### Step 2: Handle one-number cases.
 Handle the input of one number.
 Input: "123"
 Output: 123
+
+### Step 3: Handle two-number cases.
+Handle the input of two numbers.
+Input: "123, 456"
+Output: 579

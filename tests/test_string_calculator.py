@@ -11,6 +11,9 @@ from string_calculator.string_calculator import add
         ("", 0),
         ("456", 456),
         ("-789", -789),
+        ("1,2", 3),
+        ("3, 4", 7),
+        ("123, 456", 579)
     ]
 )
 def test_adding_numbers(num_str, expected):
