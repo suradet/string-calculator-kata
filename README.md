@@ -38,3 +38,9 @@ Output: 10
 Handle the input with the first line indicating the delimiter.
 Input: "//;\n1;2;3"
 Output: 6
+
+### Step 7: Disallow the negative numbers.
+Raise exceptions ValueError with the message "negatives not allowed" when the
+input numbers are negative.
+Input: "-1, 2, -3"
+Raise: ValueError("negatives not allows: -1, -3")
