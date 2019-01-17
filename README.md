@@ -11,3 +11,10 @@ contain 0 - 2 numbers; for instance, "", "1", "2,3", and "4,5,6".
 ### Step 1: The simplest case
 The simplest case is to handle the empty input string which should provide the
 result of 0.
+Input: ""
+Output: 0
+
+### Step 2: Handle one number cases.
+Handle the input of one number.
+Input: "123"
+Output: 123

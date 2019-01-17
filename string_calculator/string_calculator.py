@@ -3,4 +3,7 @@
 
 def add(numbers: str) -> int:
     """Add the numbers."""
-    return 0
+    if numbers == "":
+        return 0
+    else:
+        return int(numbers)
